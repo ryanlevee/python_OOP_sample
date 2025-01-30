@@ -2,7 +2,7 @@ import asyncio
 from datetime import datetime
 from time import time
 
-from exceptions import Continue, ProcessingError
+from exceptions import ProcessingError
 from handlers import DataProcessor, EventTypeHandler, SqlHandler, XmlHandler
 from holders import ConfigHolder, ConnectionHolder, DataHolder, HolderFactory
 from loggers import EventLogger

@@ -1,7 +1,7 @@
 import itertools
 
 from config import HISTORICAL_RUN
-from exceptions import Continue, ProcessingError
+from exceptions import ProcessingError
 from holders import ConfigHolder, DataHolder
 from interfaces import IDataProcessor
 from loggers import EventLogger

@@ -1,4 +1,3 @@
-
 class ProcessingError(Exception):
     pass
 

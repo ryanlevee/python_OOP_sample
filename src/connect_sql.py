@@ -4,8 +4,8 @@ import pymssql
 
 import interval_timer
 from config import ARS_STATUS, PYMSSQL_STR_LIVE, PYMSSQL_STR_TEST
-from traceback_logger import traceback_logger
 from loggers import EventLogger
+from traceback_logger import traceback_logger
 
 pymssql_str = PYMSSQL_STR_LIVE if ARS_STATUS == 'LIVE' else PYMSSQL_STR_TEST
 

@@ -1,10 +1,10 @@
-# import inspect
+import inspect
 import os
-# import re
+import re
 import traceback
 from datetime import date, datetime
 
-# from notify import notify_email
+from notify import notify_email
 
 
 def traceback_logger(s, ex=""):
@@ -17,5 +17,5 @@ def traceback_logger(s, ex=""):
         f.write(str(now) + '\n')
         f.write(traceback.format_exc() + '\n')
 
-    # source = re.search(r'(?!\\)(\w+\.py)', inspect.stack()[1].filename).group()
-    # notify_email(f'{str(now)}\n{traceback.format_exc()}', source, ex)
+    source = re.search(r'(?!\\)(\w+\.py)', inspect.stack()[1].filename).group()
+    notify_email(f'{str(now)}\n{traceback.format_exc()}', source, ex)
