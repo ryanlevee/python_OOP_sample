@@ -81,7 +81,7 @@ To run the main script, use:
 
 ## Usage Example
 
-Here's a brief example of how the project works:
+Here's a brief example of how the software works:
 
 1.  The script monitors the SQL database for new vendor assignments.
 2.  When a new assignment is detected, it retrieves the parent case ID.
