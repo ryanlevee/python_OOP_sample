@@ -167,6 +167,11 @@ This project includes code from the following repositories:
 *   `xmltodict.py`: xmltodict by Martin Blech, licensed under the MIT License.
 *   `defusedexpat.py`: defusedexpat by Christian Heimes, licensed under the PSF License.
 
+Author
+------
+
+Ryan Levee
+
 License
 -------
 
