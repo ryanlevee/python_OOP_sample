@@ -90,67 +90,67 @@ Here's a brief example of how the project works:
 
 ## Modules
 
-### `config.py`
+#### `config.py`
 
 Contains configuration settings and constants used throughout the project.
 
-### `connect_sql.py`
+#### `connect_sql.py`
 
 Provides functions to connect to the SQL database and execute queries.
 
-### `defusedexpat.py`
+#### `defusedexpat.py`
 
 A defused version of the `pyexpat` and `_elementtree` modules to prevent XML vulnerabilities.
 
-### `exceptions.py`
+#### `exceptions.py`
 
 Defines custom exceptions used in the project.
 
-### `handlers.py`
+#### `handlers.py`
 
 Contains handler classes for SQL and XML operations.
 
-### `holders.py`
+#### `holders.py`
 
 Defines data holder classes using `dataclasses` to store and manage data.
 
-### `interfaces.py`
+#### `interfaces.py`
 
 Abstract base classes for various operations, ensuring a consistent interface.
 
-### `interval_timer.py`
+#### `interval_timer.py`
 
 Utility for setting intervals to repeatedly execute functions.
 
-### `loggers.py`
+#### `loggers.py`
 
 Logging classes to log debug, info, and error messages.
 
-### `main.py`
+#### `main.py`
 
 The main script that orchestrates the execution of the project.
 
-### `notify.py`
+#### `notify.py`
 
 Functions for sending email notifications using SendGrid.
 
-### `operations.py`
+#### `operations.py`
 
 Classes for executing SQL and SOAP operations.
 
-### `processors.py`
+#### `processors.py`
 
 Data processing classes to normalize and process XML and SQL data.
 
-### `traceback_logger.py`
+#### `traceback_logger.py`
 
 Utility for logging tracebacks and sending notifications on errors.
 
-### `utilities.py`
+#### `utilities.py`
 
 Utility functions for various tasks such as list manipulation and SQL string creation.
 
-### `xmltodict.py`
+#### `xmltodict.py`
 
 Module for converting XML data to a dictionary format.
 
