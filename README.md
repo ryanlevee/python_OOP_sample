@@ -4,7 +4,7 @@
 
 This software is designed to automate the monitoring and updating of vendor assignments for product units within a corporate SQL database. The program performs the following key functions:
 
-1.  **Monitoring**: Continuously monitors an internal SQL database for flags indicating new vendors assigned to units.
+1.  **Monitoring**: Continuously monitors an internal SQL database for flags indicating units with new vendor assignments.
 2.  **Data Retrieval**: Extracts the "parent case ID" for the unit and communicates with a third-party API using the SOAP protocol to retrieve the corresponding "child case ID" for the newly assigned vendor.
 3.  **Data Processing and Updating**: Processes the XML data received from the third-party API and updates the SQL database accordingly.
 
@@ -83,9 +83,9 @@ To run the main script, use:
 
 Here's a brief example of how the software works:
 
-1.  The program monitors the SQL database for new vendor assignments.
-2.  When a new assignment is detected, it retrieves the parent case ID.
-3.  The parent case ID is sent to the third-party API to get the corresponding child case ID.
+1.  The program monitors the SQL database for units with new vendor assignments.
+2.  When a new assignment is detected, it retrieves the parent case ID tied to the unit.
+3.  The parent case ID is sent to the third-party API to get the corresponding child case ID tied to the newly assigned vendor.
 4.  The XML data received from the API is processed and the SQL database is updated.
 
 ## Modules
