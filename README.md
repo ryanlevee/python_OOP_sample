@@ -63,7 +63,7 @@ The project is organized into the following files:
 
 1.  Clone the repository:
     
-        git clone https://github.com/yourusername/vendor-assignment-automation.git
+        git clone https://github.com/ryanlevee/vendor-assignment-automation.git
     
 2.  Navigate to the project directory:
     
