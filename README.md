@@ -83,7 +83,7 @@ To run the main script, use:
 
 Here's a brief example of how the software works:
 
-1.  The script monitors the SQL database for new vendor assignments.
+1.  The program monitors the SQL database for new vendor assignments.
 2.  When a new assignment is detected, it retrieves the parent case ID.
 3.  The parent case ID is sent to the third-party API to get the corresponding child case ID.
 4.  The XML data received from the API is processed and the SQL database is updated.
